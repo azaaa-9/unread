@@ -96,7 +96,7 @@ input {
 
 
 .garchig {
-  background: url("duusuld.jpg");
+  background: url("niitlel.png");
   background-size: cover;
   height: 446.4px;
   max-width: 446.4px;
@@ -211,4 +211,65 @@ footer {
 .ner:hover {
   opacity: 100%;
   transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.posters {
+  position: absolute;
+  top: -200px;
+  gap: 40px;
+}
+.zurag {
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.zurag:hover {
+  background-size: 175%;
+}
+
+
+
+
+
+
+.card {
+  display: flex;
+}
+
+.card-animation {
+    font-weight: 500;
+    font-size: 14px;
+    color: #0078f6;
+    animation: blink 2s linear infinite;
+  }
+  @keyframes blink {
+    25% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0.5;
+    }
+  }
+
+.card-text {
+  font-size: xx-large;
 }
