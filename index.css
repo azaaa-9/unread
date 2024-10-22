@@ -273,3 +273,17 @@ footer {
 .card-text {
   font-size: xx-large;
 }
+
+
+
+
+.too-garchig{
+  display: flex;
+  align-content: flex-start;
+}
+
+
+.too-zurag {
+  display: flex;
+  justify-content: flex-start;
+}
