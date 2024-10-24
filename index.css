@@ -713,7 +713,6 @@ input {
 .footer-container {
   width: 60vw;
   height: 750px;
-
   display: flex;
 }
 .footer-unread {
@@ -726,7 +725,6 @@ input {
   display: flex;
   flex-direction: column;
   width: 45%;
-
   height: 70%;
 }
 .footer-card {
@@ -866,7 +864,6 @@ input {
 }
 .footer-grid-right {
   color: white;
-
   width: 50%;
   margin-left: auto;
   margin-top: -210px;
@@ -924,17 +921,7 @@ input {
   color: #1877f2;
   opacity: 100%;
 }
-.footer-youtube {
-  color: white;
-}
-.footer-youtube:hover {
-  color: red;
-  opacity: 100%;
-}
-.footer-soundcloud:hover {
-  color: red;
-  opacity: 100%;
-}
+
 
 
 
